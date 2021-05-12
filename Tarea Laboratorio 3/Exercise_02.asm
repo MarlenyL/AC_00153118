@@ -3,8 +3,8 @@
 section .text
 
         XOR AX, AX ;Limpiando el registro AX
-        MOV AL, 1d ; Inicializo el factorial
-        MOV SI, 1d ; Inicializo el contador
+        MOV AL, 1d ;Inicializo el factorial
+        MOV SI, 1d ;Inicializo el contador
         JMP factorial
 factorial:
         CMP SI,5d
